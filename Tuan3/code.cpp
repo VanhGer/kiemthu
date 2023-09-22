@@ -15,7 +15,8 @@ int main()
     cin >> h >> w;
     if (h < 165 || h > 185 || w < 50 || w > 80) cout << "Khong hop le";
     else if (h <= 169 && w < 60) cout << "M";
-    else if (h <= 175 && w > 70) cout << "L";
+    else if (h <= 175 && w < 70) cout << "L";
     else cout << "XL";
     return 0;
 }
+
